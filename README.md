@@ -4,7 +4,7 @@ GREATER and CARLA -- two synthetic datasets that are released alongside our CVPR
 
 See the [main repository here](https://github.com/basilevh/occlusions-4d).
 
-[Click here](https://forms.gle/AqJ1kcwEJNJkvqpdA) to access the already generated data that we actually used to train and evaluate our models.
+**[Click here](https://forms.gle/AqJ1kcwEJNJkvqpdA) to access the already generated data that we actually used to train and evaluate our models.**
 
 This repository contains the video generation code, which may be useful if you want to tweak the synthetic environments from which our datasets are sourced.
 
