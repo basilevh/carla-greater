@@ -11,442 +11,442 @@ echo $REDO_IDX
 SPLIT="train"
 NAME="train_0002"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 2 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 2 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0010"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 10 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 10 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0018"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 18 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 18 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0026"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 3 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 3 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0034"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 11 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 11 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0042"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 19 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 19 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0050"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 4 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 4 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0058"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 12 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 12 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0066"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 20 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 20 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0074"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 5 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 5 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0082"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 13 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 13 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0090"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 21 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 21 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0098"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0106"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 14 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 14 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0114"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0122"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 7 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 7 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0130"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 15 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 15 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0138"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 0 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 0 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0146"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 8 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 8 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0154"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 16 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 16 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0162"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 1 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 1 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0170"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 9 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 9 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0178"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 17 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 17 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0186"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 2 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 2 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0194"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 10 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 10 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0202"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 18 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 18 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0210"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 3 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 3 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0218"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 11 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 11 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0226"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 19 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 19 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0234"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 4 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 4 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0242"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 12 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 12 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0250"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 20 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 20 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0258"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 5 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 5 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0266"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 13 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 13 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0274"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 21 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 21 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0282"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0290"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 14 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 14 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0298"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0306"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 7 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 7 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0314"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 15 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 15 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0322"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 0 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 0 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0330"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 8 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 8 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0338"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 16 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 16 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0346"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 1 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 1 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0354"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 9 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 9 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0362"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 17 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 17 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0370"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 2 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 2 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0378"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 10 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 10 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0386"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 18 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 18 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="train"
 NAME="train_0394"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 3 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 3 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0402"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 11 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 11 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0410"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 19 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 19 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0418"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 4 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 4 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0426"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 12 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 12 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0434"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 20 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 20 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0442"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 5 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 5 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0450"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 13 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 13 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0458"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 21 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 21 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0466"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0474"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 14 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 14 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0482"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 6 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0490"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 7 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 7 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 SPLIT="val"
 NAME="val_0498"
 python record_simulation.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --world Town03 --num_vehicles 132 --num_walkers 172 --safe 1 --num_frames 1000 --fps 10
-python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 15 --multiview 5 --num_frames 1000 --fps 10 --time_factor 1.0
-python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000 --multiview 5
+python capture_sensor_data.py --record_path $DSETROOT/$SPLIT/$NAME/$NAME.log --port $PORT --weather_preset 15 --num_frames 1000 --fps 10 --time_factor 1.0
+python video_scene.py --capture_path $DSETROOT/$SPLIT/$NAME --num_frames 1000
 
 
 done
