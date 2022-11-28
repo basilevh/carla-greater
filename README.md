@@ -1,4 +1,4 @@
-# carla-greater
+# Dataset Code for Revealing Occlusions with 4D Neural Fields
 
 GREATER and CARLA -- two synthetic datasets that are released alongside our CVPR 2022 paper "Revealing Occlusions with 4D Neural Fields".
 
@@ -6,7 +6,7 @@ See the [main repository here](https://github.com/basilevh/occlusions-4d).
 
 **[Click here](https://forms.gle/AqJ1kcwEJNJkvqpdA) to access the already generated data that we actually used to train and evaluate our models.**
 
-This repository contains the video generation code, which may be useful if you want to tweak the synthetic environments from which our datasets are sourced.
+This repository contains the video generation code, which may be useful if you want to tweak the simulators or environments from which our datasets are sourced.
 
 [Paper](https://arxiv.org/pdf/2204.10916.pdf) | [Website](https://occlusions.cs.columbia.edu/) | [Code](https://github.com/basilevh/occlusions-4d)
 
