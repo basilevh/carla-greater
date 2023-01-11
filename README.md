@@ -44,6 +44,4 @@ Some examples of the raw RGB views as well as the merged point clouds (colored a
   <img width="100%" src="carla_views.png">
 </p>
 
-<p align="center">
-  <video src="https://occlusions.cs.columbia.edu/carla_merged_semantic_example.mp4" width="100%"></video>
-</p>
+<video src="https://occlusions.cs.columbia.edu/carla_merged_semantic_example.mp4"></video>
