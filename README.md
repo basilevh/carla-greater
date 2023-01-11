@@ -37,3 +37,13 @@ Then, see `carla_gen_commands/`. These scripts execute the Python files `record_
 I used the following eight maps: Town01, Town02, Town03, Town04, Town05, Town06, Town07, Town10HD.
 
 An optional final step is to run `meas_interest.py` to generate `occlusion_rate` files, intended for training the [model in our paper](https://arxiv.org/pdf/2204.10916.pdf) specifically.
+
+Some examples of the raw RGB views as well as the merged point clouds (colored according to semantic category) are shown below.
+
+<p align="center">
+  <img width="100%" src="carla_views.png">
+</p>
+
+<p align="center">
+  <video src="carla_merged_semantic.mp4" width="100%"/>
+</p>
