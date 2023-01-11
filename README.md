@@ -1,4 +1,4 @@
-# carla-greater
+# Dataset Code for Revealing Occlusions with 4D Neural Fields
 
 GREATER and CARLA -- two synthetic datasets that are released alongside our CVPR 2022 paper "Revealing Occlusions with 4D Neural Fields".
 
@@ -6,7 +6,7 @@ See the [main repository here](https://github.com/basilevh/occlusions-4d).
 
 **[Click here](https://forms.gle/AqJ1kcwEJNJkvqpdA) to access the already generated data that we actually used to train and evaluate our models.**
 
-This repository contains the video generation code, which may be useful if you want to tweak the synthetic environments from which our datasets are sourced.
+This repository contains the video generation code, which may be useful if you want to tweak the simulators or environments from which our datasets are sourced.
 
 [Paper](https://arxiv.org/pdf/2204.10916.pdf) | [Website](https://occlusions.cs.columbia.edu/) | [Code](https://github.com/basilevh/occlusions-4d)
 
@@ -37,3 +37,13 @@ Then, see `carla_gen_commands/`. These scripts execute the Python files `record_
 I used the following eight maps: Town01, Town02, Town03, Town04, Town05, Town06, Town07, Town10HD.
 
 An optional final step is to run `meas_interest.py` to generate `occlusion_rate` files, intended for training the [model in our paper](https://arxiv.org/pdf/2204.10916.pdf) specifically.
+
+Some examples of the raw RGB views as well as the merged point clouds (colored according to semantic category) are shown below.
+
+<p align="center">
+  <img width="100%" src="carla_views.png">
+</p>
+
+<p align="center">
+  <video src="carla_merged_semantic.mp4" width="100%"/>
+</p>
