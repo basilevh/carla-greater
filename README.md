@@ -44,4 +44,4 @@ Some examples of the raw RGB views as well as the merged point clouds (colored a
   <img width="100%" src="carla_views.png">
 </p>
 
-https://www.youtube.com/watch?v=niz9mcHhNt0
+https://user-images.githubusercontent.com/18504625/211918236-414f474b-8da8-4df1-9f45-9ee1db66e12e.mp4
