@@ -1,6 +1,6 @@
 # Dataset Code for Revealing Occlusions with 4D Neural Fields
 
-GREATER and CARLA -- two synthetic datasets that are released alongside our CVPR 2022 paper "Revealing Occlusions with 4D Neural Fields".
+GREATER and CARLA-4D -- two synthetic datasets that are released alongside our CVPR 2022 paper "Revealing Occlusions with 4D Neural Fields".
 
 See the [main repository here](https://github.com/basilevh/occlusions-4d).
 
@@ -22,7 +22,7 @@ I recommend parallelizing the data generation via multiple tmux panes.
 Please note that the depth map in GREATER is actually the distance from the camera plane, not the camera itself.
 -->
 
-## CARLA
+## CARLA-4D
 
 This dataset uses the [CARLA simulator](https://carla.org/).
 
