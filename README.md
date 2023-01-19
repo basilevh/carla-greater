@@ -38,10 +38,14 @@ I used the following eight maps: Town01, Town02, Town03, Town04, Town05, Town06,
 
 An optional final step is to run `meas_interest.py` to generate `occlusion_rate` files, intended for training the [model in our paper](https://arxiv.org/pdf/2204.10916.pdf) specifically.
 
-Some examples of the raw RGB views as well as the merged point clouds (colored according to semantic category) are shown below.
+Some examples of the raw RGB views are shown here:
 
 <p align="center">
   <img width="100%" src="carla_views.png">
 </p>
 
+This is a the dynamic merged point cloud, colored according to semantic category:
+
 https://user-images.githubusercontent.com/18504625/211918236-414f474b-8da8-4df1-9f45-9ee1db66e12e.mp4
+
+Note that while [our paper](https://arxiv.org/pdf/2204.10916.pdf) simply calls the dataset CARLA, we decided to denote it as CARLA-4D instead henceforth for disambiguation.
