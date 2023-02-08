@@ -3,7 +3,6 @@ Originally created by Basile Van Hoorick for Revealing Occlusions with 4D Neural
 Feel free to adapt this code as it shows how to correctly use the GREATER dataset in PyTorch pipelines.
 '''
 
-import json
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
@@ -93,7 +92,7 @@ class GREATERDataset(torch.utils.data.Dataset):
         
         self.all_scenes = all_scenes
         self.num_scenes = len(all_scenes)
-        self.dset_size = int(self.num_scenes)
+        self.dset_size = self.num_scenes
 
         self.to_tensor = torchvision.transforms.ToTensor()
 
