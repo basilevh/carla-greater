@@ -18,8 +18,6 @@ _MAX_DEPTH_CLIP = 32.0
 # Values are ints in the range [0, 360] degrees.
 _PREFLAT_HUE_CLUSTERS = [0, 35, 47, 65, 90, 160, 180, 188, 219, 284, 302, 324]
 
-_MAX_VALO_IDS = 32
-
 
 def get_occlusion_rate(scene_dp, src_view):
     snitch_occl_fp = os.path.join(scene_dp, 'occl.txt')
