@@ -4,7 +4,7 @@ GREATER and CARLA-4D -- two synthetic datasets that are released alongside our C
 
 See the [main repository here](https://github.com/basilevh/occlusions-4d).
 
-**[Click here](https://forms.gle/AqJ1kcwEJNJkvqpdA) to access the already generated data that we actually used to train and evaluate our models.**
+**[Click here](https://forms.gle/AqJ1kcwEJNJkvqpdA) to access the already generated data that we actually used to train and evaluate our models.** The archives are split into multiple files, so a tool like [gshell](https://github.com/wkentaro/gshell) may be useful for downloading them in a terminal more efficiently.
 
 This repository contains the video generation code, which may be useful if you want to tweak the simulators or environments from which our datasets are sourced.
 
